@@ -6,3 +6,5 @@ function decorateCliente(cliente) {
       enderecoResumo: cliente.endereco.length > 30 ? cliente.endereco.slice(0, 30) + "..." : cliente.endereco,
     };
   }
+
+module.exports = { decorateCliente };
