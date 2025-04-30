@@ -5,4 +5,6 @@ function decorateHamburguer(hamburguer) {
       descricaoResumo: hamburguer.descricao?.slice(0, 50) + '...' || '',
       precoFormatado: `R$ ${hamburguer.preco.toFixed(2).replace('.', ',')}`,
     };
-  }  
+  } 
+
+module.exports = { decorateHamburguer };
