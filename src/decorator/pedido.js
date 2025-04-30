@@ -6,4 +6,4 @@ function decoratePedido(pedido) {
       resumo: `Pedido de ${pedido.quantidade}x ${pedido.hamburguer?.nome || 'hamburguer'} por ${pedido.cliente?.nome || 'cliente'}`,
     };
   }
-  
+module.exports = { decoratePedido };
